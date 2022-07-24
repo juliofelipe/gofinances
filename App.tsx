@@ -7,9 +7,9 @@ import { Dashboard } from './src/screens/Dashboard';
 
 export default function App() {
   const [loaded] = useFonts({
-    'Poppins_Bold': require('./src/assets/fonts/Poppins-Bold.ttf'),
-    'Poppins_Medium': require('./src/assets/fonts/Poppins-Medium.ttf'),
-    'Poppins_Regular': require('./src/assets/fonts/Poppins-Regular.ttf')
+    'Poppins_Bold': require('./assets/fonts/Poppins-Bold.ttf'),
+    'Poppins_Medium': require('./assets/fonts/Poppins-Medium.ttf'),
+    'Poppins_Regular': require('./assets/fonts/Poppins-Regular.ttf')
   });
 
   if (!loaded) {
